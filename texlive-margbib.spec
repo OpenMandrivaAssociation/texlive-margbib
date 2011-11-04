@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/margbib
+# catalog-date 2008-09-23 13:30:27 +0200
+# catalog-license gpl
+# catalog-version 1.0c
 Name:		texlive-margbib
 Version:	1.0c
 Release:	1
@@ -41,6 +47,7 @@ place the citation key into the margin.
 #- source
 %doc %{_texmfdistdir}/source/latex/margbib/margbib.dtx
 %doc %{_texmfdistdir}/source/latex/margbib/margbib.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ place the citation key into the margin.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
