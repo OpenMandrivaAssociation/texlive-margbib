@@ -6,7 +6,7 @@
 # catalog-version 1.0c
 Name:		texlive-margbib
 Version:	1.0c
-Release:	9
+Release:	10
 Summary:	Display bibitem tags in the margins
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/margbib
