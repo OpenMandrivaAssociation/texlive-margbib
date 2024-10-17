@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Display bibitem tags in the margins
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/margbib
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/margbib
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/margbib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/margbib.doc.r%{version}.tar.xz
